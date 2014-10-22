@@ -20,7 +20,7 @@ public class Sprite {
 	private RectF mRect;
 	private Bitmap mBitmap;
 	private Matrix matrix;
-	private float[] matrixValues; // 此数组为了获取在屏幕中的准确坐标
+	private float[] matrixValues; // 此数组为了获取在屏幕中的准确坐标 commit by btbj
 	private boolean hasPosition = false;
 	private float tempValue, dv; // 在地图中移动是用到的临时变量 commit by btbj
 	public boolean isActivity;
