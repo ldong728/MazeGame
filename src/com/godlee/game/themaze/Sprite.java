@@ -22,7 +22,7 @@ public class Sprite {
 	private Matrix matrix;
 	private float[] matrixValues; // 此数组为了获取在屏幕中的准确坐标
 	private boolean hasPosition = false;
-	private float tempValue, dv; // 在地图中移动是用到的临时变量
+	private float tempValue, dv; // 在地图中移动是用到的临时变量 commit by btbj
 	public boolean isActivity;
 	public boolean inMoving;
 	public int movingDirection = -1;
